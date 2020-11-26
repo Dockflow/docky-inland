@@ -2,6 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv'
 import { MongoManager } from './config/db'
+import logger from './utils/logger';
 
  
 dotenv.config();
@@ -24,8 +25,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+app.get('/', (req:Request, res:Response) => {
+  res.send({message:'Hello World!'});
 });
 
 
