@@ -10,6 +10,7 @@ dotenv_1.default.config();
 var port = process.env.PORT;
 var mongoUrl = process.env.MONGO_URL;
 console.log(process.env.PORT);
+console.log("hello");
 var app = express_1.default();
 // mongoose.connect('', {useNewUrlParser: true, useUnifiedTopology: true});
 // mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
