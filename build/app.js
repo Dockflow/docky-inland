@@ -6,13 +6,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
 var body_parser_1 = __importDefault(require("body-parser"));
 var dotenv_1 = __importDefault(require("dotenv"));
+var db_1 = require("./config/db");
 dotenv_1.default.config();
 var port = process.env.PORT;
-var mongoUrl = process.env.MONGO_URL;
+var mongoUrl = process.env.MONGO_URL || '';
 console.log(process.env.PORT);
 var app = express_1.default();
-// mongoose.connect('', {useNewUrlParser: true, useUnifiedTopology: true});
-// mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
+db_1.MongoManager.connect(mongoUrl).then(function (res) {
+    console.log(res);
+}).catch(function (err) {
+    console.log(err);
+});
 //body parser
 app.use(body_parser_1.default.json());
 app.use(body_parser_1.default.urlencoded({ extended: true }));
