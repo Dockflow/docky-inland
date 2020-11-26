@@ -13,11 +13,11 @@ console.log(process.env.PORT);
 
 const app = express();
 
-MongoManager.connect(mongoUrl as string ).then(res => {
-  console.log(res);
+MongoManager.connect(mongoUrl as string ).then(() => {
+  console.log('connected');
 }).catch(err => {
   console.log(err);
-}) ;
+});
 
 //body parser
 app.use(bodyParser.json());

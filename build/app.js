@@ -12,8 +12,8 @@ var port = process.env.PORT;
 var mongoUrl = process.env.MONGO_URL || '';
 console.log(process.env.PORT);
 var app = express_1.default();
-db_1.MongoManager.connect(mongoUrl).then(function (res) {
-    console.log(res);
+db_1.MongoManager.connect(mongoUrl).then(function () {
+    console.log('connected');
 }).catch(function (err) {
     console.log(err);
 });
