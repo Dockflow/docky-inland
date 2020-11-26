@@ -9,6 +9,7 @@ const port = process.env.PORT;
 const mongoUrl = process.env.MONGO_URL;
 
 console.log(process.env.PORT);
+console.log("hello")
 
 const app = express();
 
