@@ -11,7 +11,6 @@ dotenv_1.default.config();
 var port = process.env.PORT;
 var mongoUrl = process.env.MONGO_URL || '';
 console.log(process.env.PORT);
-console.log("hello");
 var app = express_1.default();
 db_1.MongoManager.connect(mongoUrl).then(function () {
     console.log('connected');
