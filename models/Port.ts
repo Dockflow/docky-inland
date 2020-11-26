@@ -15,7 +15,7 @@ const PortSchema: Schema = new Schema({
     type: {
       type: String, 
       enum: ['Point'], 
-      required: true
+      required: true,
     },
     coordinates: {
       type: [Number],
@@ -24,4 +24,4 @@ const PortSchema: Schema = new Schema({
   }
 });
 
-export default mongoose.model<IPort>('Port', PortSchema);
+export const PortModel =  mongoose.model<IPort>('Port', PortSchema);

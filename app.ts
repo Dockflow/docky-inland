@@ -1,7 +1,11 @@
-import express from 'express';
+import express, {Request , Response} from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv'
 import { MongoManager } from './config/db'
+import logger from './utils/logger';
+import {vesselController} from './controllers/vesselController';
+import {lockController} from './controllers/lockController';
+import {corridorController} from './controllers/corridorController';
 
  
 dotenv.config();
@@ -24,9 +28,34 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+
+
+
+app.get('/', (req:Request, res:Response) => {
+  res.send({message:'Hello World!'});
 });
+
+// Vessel Routes
+app.get('/vessels', vesselController.getAllVessels); 
+app.post('/vessels',vesselController.createVessel);
+app.post('/vessels' , lockController.deleteLock);
+app.put('/vessels' , vesselController.deleteVessel);
+
+
+// Locks Routes 
+app.get('/locks', lockController.getAllLocks);
+app.post('/locks', lockController.createLock);
+app.post('/locks' , lockController.deleteLock);
+app.put('/locks' , lockController.updateLock);
+
+// Corridor Routes
+app.get('/corridors', corridorController.getAllCorridor);
+app.post('/corridors', corridorController.createCorridor);
+app.post('/corridors' , corridorController.deleteCorridor);
+app.put('/corridors' , corridorController.updateCorridor);
+
+//controllers
+
 
 
 app.listen(port, () => {
