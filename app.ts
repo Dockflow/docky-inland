@@ -1,25 +1,27 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv'
-import mongoose from 'mongoose'
+import { MongoManager } from './config/db'
 
  
-dotenv.config()
+dotenv.config();
 const port = process.env.PORT;
-const mongoUrl = process.env.MONGO_URL;
+const mongoUrl = process.env.MONGO_URL || '';
 
 console.log(process.env.PORT);
-console.log("hello")
+
 
 const app = express();
 
-// mongoose.connect('', {useNewUrlParser: true, useUnifiedTopology: true});
+MongoManager.connect(mongoUrl as string ).then(() => {
+  console.log('connected');
+}).catch(err => {
+  console.log(err);
+});
 
-// mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
 //body parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
 
 
 app.get('/', (req, res) => {
