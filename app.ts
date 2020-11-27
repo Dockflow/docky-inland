@@ -6,6 +6,7 @@ import logger from './utils/logger';
 import {vesselController} from './controllers/vesselController';
 import {lockController} from './controllers/lockController';
 import {corridorController} from './controllers/corridorController';
+import {routeController} from './controllers/routeController';
 
  
 dotenv.config();
@@ -55,6 +56,7 @@ app.post('/corridors' , corridorController.deleteCorridor);
 app.put('/corridors' , corridorController.updateCorridor);
 
 //controllers
+app.get('/route', routeController.getRoute);
 
 
 
