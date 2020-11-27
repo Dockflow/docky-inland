@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.get('/', (req:Request, res:Response) => {
-  res.send({message:'Hello World!'});
+  res.send({message:'Docky Riverr App!'});
 });
 
 // Vessel Routes
