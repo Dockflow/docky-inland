@@ -1,161 +1,197 @@
 [
     {
         "anrpar": {
-            "1": [
-                {
+            "Scheldt": {
+                "Boudewijnsluis": {
                     "name": "Boudewijnsluis",
                     "port": "Antwerp",
                     "corridor": "Scheldt",
                     "lat": "51.280080",
                     "lng": "4.330560",
-                    "wait_time": "40",
+                    "transfer_time": "40",
                     "travel_time": "0",
                     "distance": "0"
                 },
-                {
+                "Sluizen te Merelbeke": {
                     "name": "Sluizen te Merelbeke",
                     "corridor": "Ringvaart om Gent",
                     "lat": "51.008723",
                     "lng": "3.7487",
-                    "wait_time": "40",
+                    "transfer_time": "40",
                     "travel_time": "500",
                     "distance": "125"
                 },
-                {
+                "Sluis te Asper": {
                     "name": "Sluis te Asper",
                     "corridor": "Boven-Schelde",
                     "lat": "50.9168",
                     "lng": "3.6667",
-                    "wait_time": "15",
+                    "transfer_time": "15",
                     "travel_time": "120",
                     "distance": "30"
                 },
-                {
+                "Sluis te Oudenaarde": {
                     "name": "Sluis te Oudenaarde",
                     "corridor": "Boven-Schelde",
                     "lat": "50.85205",
                     "lng": "3.620902",
-                    "wait_time": "15",
+                    "transfer_time": "15",
                     "travel_time": "75",
                     "distance": "18.75"
+                },
+                "Sluis te Kerkhove": {
+                    "name": "Sluis te bossuit",
+                    "corridor": "Kanaal Bossuit-Kortrijk",
+                    "lat": "50.749605",
+                    "lng": "3.411484",
+                    "transfer_time": "10",
+                    "travel_time": "75",
+                    "distance": "18.75"
+                },
+                "Sluis te Moen": {
+                    "name": "Sluis te Moen",
+                    "corridor": "Kanaal Bossuit-Kortrijk",
+                    "lat": "50.779254",
+                    "lng": "3.380089",
+                    "transfer_time": "20",
+                    "travel_time": "30",
+                    "distance": "7.5"
+                },
+                "Nieuwe sluis te Zwevegem": {
+                    "corridor": "Kanaal Bossuit-Kortrijk",
+                    "corridor": "Boven-Schelde",
+                    "lat": "50.822970",
+                    "lng": "3.345384",
+                    "transfer_time": "25",
+                    "travel_time": "30",
+                    "distance": "7.5"
+                },
+                "Sluis 11 te Kortrijk": {
+                    "name": "Sluis 11 te Kortrijk",
+                    "corridor": "Kanaal Bossuit-Kortrijk",
+                    "lat": "50.834551",
+                    "lng": "3.270736",
+                    "transfer_time": "20",
+                    "travel_time": "30",
+                    "distance": "7.5"
                 }
-            ],
-            "2": [
-                {
+            },
+            "Leie": {
+                "Van Cauwelaertsluis": {
                     "name": "Van Cauwelaertsluis",
                     "port": "Antwerp",
                     "corridor": "Scheldt",
                     "lat": "51.280080",
                     "lng": "4.330560",
-                    "wait_time": "30",
+                    "transfer_time": "30",
                     "travel_time": "0",
                     "distance": "0"
                 },
-                {
+                "Sluizen te Merelbeke": {
                     "name": "Sluizen te Merelbeke",
                     "corridor": "Ringvaart om Gent",
                     "lat": "51.008723",
                     "lng": "3.7487",
-                    "wait_time": "40",
+                    "transfer_time": "40",
                     "travel_time": "500",
                     "distance": "125"
                 },
-                {
+                "Sluis te Sint-Baafs-Vijve": {
                     "name": "Sluis te Sint-Baafs-Vijve",
                     "corridor": "Leie",
                     "lat": "50.913944",
                     "lng": "3.414919",
-                    "wait_time": "20",
+                    "transfer_time": "20",
                     "travel_time": "90",
                     "distance": "22.5"
                 },
-                {
+                "Stuwsluis te Harelbeke": {
                     "name": "Stuwsluis te Harelbeke",
                     "corridor": "Leie",
                     "lat": "50.855051",
                     "lng": "3.305402",
-                    "wait_time": "15",
+                    "transfer_time": "15",
                     "travel_time": "95",
                     "distance": "23.75"
                 },
-                {
+                "Sluis 11 te Kortrijk": {
                     "name": "Sluis 11 te Kortrijk",
                     "corridor": "Kanaal Bossuit-Kortrijk",
                     "lat": "50.834551",
                     "lng": "3.270736",
-                    "wait_time": "20",
+                    "transfer_time": "20",
                     "travel_time": "30",
                     "distance": "7.5"
                 }
-            ]
+            }
         },
-        "anrgnk": {
-            "1": [
-                {
+        "anrmst": {
+            "Genk": {
+                "Boudewijnsluis": {
                     "name": "Boudewijnsluis",
                     "port": "Antwerp",
                     "corridor": "Scheldt",
                     "lat": "51.280080",
                     "lng": "4.330560",
-                    "wait_time": "40",
+                    "transfer_time": "40",
                     "travel_time": "0",
                     "distance": "0"
                 },
-                {
+                "Sluis Wijnegem": {
                     "name": "Sluis Wijnegem",
                     "corridor": "Albertkanaal",
                     "lat": "51.226512",
                     "lng": "4.538661",
-                    "wait_time": "30",
+                    "transfer_time": "30",
                     "travel_time": "180",
                     "distance": "45"
                 },
-                {
+                "Sluis Olen": {
                     "name": "Sluis Olen",
                     "corridor": "Albertkanaal",
                     "lat": "51.159217",
                     "lng": "4.860465",
-                    "wait_time": "40",
+                    "transfer_time": "40",
                     "travel_time": "170",
                     "distance": "42.5"
                 },
-                {
+                "sluis Kwaadmechelen": {
                     "name": "sluis Kwaadmechelen",
                     "corridor": "Albertkanaal",
                     "lat": "51.098364",
                     "lng": "5.107870",
-                    "wait_time": "35",
+                    "transfer_time": "35",
                     "travel_time": "80",
                     "distance": "20"
                 },
-                {
+                "sluis Hasselt": {
                     "name": "sluis Hasselt",
                     "corridor": "Albertkanaal",
                     "lat": "50.940850",
                     "lng": "5.368881",
-                    "wait_time": "35",
+                    "transfer_time": "35",
                     "travel_time": "105",
                     "distance": "26.25"
                 },
-                {
+                "sluis Diepenbeek": {
                     "name": "sluis Diepenbeek",
                     "corridor": "Albertkanaal",
                     "lat": "50.937929",
                     "lng": "5.432126",
-                    "wait_time": "30",
+                    "transfer_time": "30",
                     "travel_time": "15",
                     "distance": "3.75"
                 },
-                {
+                "sluis Genk": {
                     "name": "sluis Genk",
                     "corridor": "Albertkanaal",
                     "lat": "50.935917",
                     "lng": "5.491912",
-                    "wait_time": "30",
+                    "transfer_time": "30",
                     "travel_time": "15",
                     "distance": "3.75"
                 }
-            ]
+            }
         }
     }
 ]
