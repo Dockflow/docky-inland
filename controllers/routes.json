@@ -7,25 +7,37 @@
                     "port": "Antwerp",
                     "corridor": "Scheldt",
                     "lat": "51.280080",
-                    "lng": "4.330560"
+                    "lng": "4.330560",
+                    "wait_time": "40",
+                    "travel_time": "0",
+                    "distance": "0"
                 },
                 {
                     "name": "Sluizen te Merelbeke",
                     "corridor": "Ringvaart om Gent",
                     "lat": "51.008723",
-                    "lng": "3.7487"
+                    "lng": "3.7487",
+                    "wait_time": "40",
+                    "travel_time": "500",
+                    "distance": "125"
                 },
                 {
                     "name": "Sluis te Asper",
                     "corridor": "Boven-Schelde",
                     "lat": "50.9168",
-                    "lng": "3.6667"
+                    "lng": "3.6667",
+                    "wait_time": "15",
+                    "travel_time": "120",
+                    "distance": "30"
                 },
                 {
                     "name": "Sluis te Oudenaarde",
                     "corridor": "Boven-Schelde",
                     "lat": "50.85205",
-                    "lng": "3.620902"
+                    "lng": "3.620902",
+                    "wait_time": "15",
+                    "travel_time": "75",
+                    "distance": "18.75"
                 }
             ],
             "2": [
@@ -34,65 +46,114 @@
                     "port": "Antwerp",
                     "corridor": "Scheldt",
                     "lat": "51.280080",
-                    "lng": "4.330560"
+                    "lng": "4.330560",
+                    "wait_time": "30",
+                    "travel_time": "0",
+                    "distance": "0"
                 },
                 {
-                    "name": "Stuwsluis te Astene",
-                    "corridor": "Leie",
-                    "lat": "51.094895",
-                    "lng": "3.562473"
+                    "name": "Sluizen te Merelbeke",
+                    "corridor": "Ringvaart om Gent",
+                    "lat": "51.008723",
+                    "lng": "3.7487",
+                    "wait_time": "40",
+                    "travel_time": "500",
+                    "distance": "125"
                 },
                 {
                     "name": "Sluis te Sint-Baafs-Vijve",
                     "corridor": "Leie",
                     "lat": "50.913944",
-                    "lng": "3.414919"
+                    "lng": "3.414919",
+                    "wait_time": "20",
+                    "travel_time": "90",
+                    "distance": "22.5"
                 },
                 {
-                    "name": "Sluis 9 te Kortrijk",
+                    "name": "Stuwsluis te Harelbeke",
+                    "corridor": "Leie",
+                    "lat": "50.855051",
+                    "lng": "3.305402",
+                    "wait_time": "15",
+                    "travel_time": "95",
+                    "distance": "23.75"
+                },
+                {
+                    "name": "Sluis 11 te Kortrijk",
                     "corridor": "Kanaal Bossuit-Kortrijk",
                     "lat": "50.834551",
-                    "lng": "3.270736"
+                    "lng": "3.270736",
+                    "wait_time": "20",
+                    "travel_time": "30",
+                    "distance": "7.5"
                 }
             ]
         },
         "anrgnk": {
             "1": [
                 {
+                    "name": "Boudewijnsluis",
+                    "port": "Antwerp",
+                    "corridor": "Scheldt",
+                    "lat": "51.280080",
+                    "lng": "4.330560",
+                    "wait_time": "40",
+                    "travel_time": "0",
+                    "distance": "0"
+                },
+                {
                     "name": "Sluis Wijnegem",
                     "corridor": "Albertkanaal",
                     "lat": "51.226512",
-                    "lng": "4.538661"
+                    "lng": "4.538661",
+                    "wait_time": "30",
+                    "travel_time": "180",
+                    "distance": "45"
                 },
                 {
                     "name": "Sluis Olen",
                     "corridor": "Albertkanaal",
                     "lat": "51.159217",
-                    "lng": "4.860465"
+                    "lng": "4.860465",
+                    "wait_time": "40",
+                    "travel_time": "170",
+                    "distance": "42.5"
                 },
                 {
                     "name": "sluis Kwaadmechelen",
                     "corridor": "Albertkanaal",
                     "lat": "51.098364",
-                    "lng": "5.107870"
+                    "lng": "5.107870",
+                    "wait_time": "35",
+                    "travel_time": "80",
+                    "distance": "20"
                 },
                 {
                     "name": "sluis Hasselt",
                     "corridor": "Albertkanaal",
                     "lat": "50.940850",
-                    "lng": "5.368881"
+                    "lng": "5.368881",
+                    "wait_time": "35",
+                    "travel_time": "105",
+                    "distance": "26.25"
                 },
                 {
                     "name": "sluis Diepenbeek",
                     "corridor": "Albertkanaal",
                     "lat": "50.937929",
-                    "lng": "5.432126"
+                    "lng": "5.432126",
+                    "wait_time": "30",
+                    "travel_time": "15",
+                    "distance": "3.75"
                 },
                 {
                     "name": "sluis Genk",
                     "corridor": "Albertkanaal",
                     "lat": "50.935917",
-                    "lng": "5.491912"
+                    "lng": "5.491912",
+                    "wait_time": "30",
+                    "travel_time": "15",
+                    "distance": "3.75"
                 }
             ]
         }
