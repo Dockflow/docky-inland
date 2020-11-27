@@ -1,0 +1,100 @@
+[
+    {
+        "anrpar": {
+            "1": [
+                {
+                    "name": "Boudewijnsluis",
+                    "port": "Antwerp",
+                    "corridor": "Scheldt",
+                    "lat": "51.280080",
+                    "lng": "4.330560"
+                },
+                {
+                    "name": "Sluizen te Merelbeke",
+                    "corridor": "Ringvaart om Gent",
+                    "lat": "51.008723",
+                    "lng": "3.7487"
+                },
+                {
+                    "name": "Sluis te Asper",
+                    "corridor": "Boven-Schelde",
+                    "lat": "50.9168",
+                    "lng": "3.6667"
+                },
+                {
+                    "name": "Sluis te Oudenaarde",
+                    "corridor": "Boven-Schelde",
+                    "lat": "50.85205",
+                    "lng": "3.620902"
+                }
+            ],
+            "2": [
+                {
+                    "name": "Van Cauwelaertsluis",
+                    "port": "Antwerp",
+                    "corridor": "Scheldt",
+                    "lat": "51.280080",
+                    "lng": "4.330560"
+                },
+                {
+                    "name": "Stuwsluis te Astene",
+                    "corridor": "Leie",
+                    "lat": "51.094895",
+                    "lng": "3.562473"
+                },
+                {
+                    "name": "Sluis te Sint-Baafs-Vijve",
+                    "corridor": "Leie",
+                    "lat": "50.913944",
+                    "lng": "3.414919"
+                },
+                {
+                    "name": "Sluis 9 te Kortrijk",
+                    "corridor": "Kanaal Bossuit-Kortrijk",
+                    "lat": "50.834551",
+                    "lng": "3.270736"
+                }
+            ]
+        },
+        "anrgnk": {
+            "1": [
+                {
+                    "name": "Sluis Wijnegem",
+                    "corridor": "Albertkanaal",
+                    "lat": "51.226512",
+                    "lng": "4.538661"
+                },
+                {
+                    "name": "Sluis Olen",
+                    "corridor": "Albertkanaal",
+                    "lat": "51.159217",
+                    "lng": "4.860465"
+                },
+                {
+                    "name": "sluis Kwaadmechelen",
+                    "corridor": "Albertkanaal",
+                    "lat": "51.098364",
+                    "lng": "5.107870"
+                },
+                {
+                    "name": "sluis Hasselt",
+                    "corridor": "Albertkanaal",
+                    "lat": "50.940850",
+                    "lng": "5.368881"
+                },
+                {
+                    "name": "sluis Diepenbeek",
+                    "corridor": "Albertkanaal",
+                    "lat": "50.937929",
+                    "lng": "5.432126"
+                },
+                {
+                    "name": "sluis Genk",
+                    "corridor": "Albertkanaal",
+                    "lat": "50.935917",
+                    "lng": "5.491912"
+                }
+            ]
+        }
+    }
+]

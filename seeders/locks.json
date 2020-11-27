@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Boudewijnsluis",
+		"port": "Antwerp",
+		"corridor": "Scheldt"
+	},
+	{
+		"name": "Van Cauwelaertsluis",
+		"port": "Antwerp",
+		"corridor": "Scheldt"
+	},
+	{
+		"name": "Sluizen te Merelbeke",
+		"corridor": "Ringvaart om Gent"
+	},
+	{
+		"name": "Sluis te Asper",
+		"corridor": "Boven-Schelde"
+	},
+	{
+		"name": "Sluis te Oudenaarde",
+		"corridor": "Boven-Schelde"
+	},
+
+	{
+		"name": "Stuwsluis te Astene",
+		"corridor": "Leie"
+	},
+	{
+		"name": "Sluis te Sint-Baafs-Vijve",
+		"corridor": "Leie"
+	},
+	{
+		"name": "Sluis 9 te Kortrijk",
+		"corridor": "Kanaal Bossuit-Kortrijk"
+	},
+
+	{
+		"name": "Sluis Wijnegem",
+		"corridor": "Albertkanaal"
+	},
+	{
+		"name": "Sluis Olen",
+		"corridor": "Albertkanaal"
+	},
+	{
+		"name": "sluis Kwaadmechelen",
+		"corridor": "Albertkanaal"
+	},
+	{
+		"name": "sluis Hasselt",
+		"corridor": "Albertkanaal"
+	},
+	{
+		"name": "sluis Diepenbeek",
+		"corridor": "Albertkanaal"
+	},
+	{
+		"name": "sluis Genk",
+		"corridor": "Albertkanaal"
+	}
+]
